@@ -3,7 +3,7 @@ import image from './image.png'
 
 const LINKS = {
   twitter: 'https://x.com/GoldChest_Dev',
-  chart: 'https://dexscreener.com/',
+  chart: 'https://dexscreener.com/solana/DgsL9JE9pX2rYaqGHmr5Lczixv8BzHSFVN11pMMBpump',
 }
 import skinCommon1 from './image copy 2.png'
 import skinCommon2 from './image copy 5.png'
