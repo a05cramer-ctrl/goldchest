@@ -264,6 +264,39 @@
   pointer-events: none;
 }
 
+.hero-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gold);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-gold);
+  border-radius: 8px;
+  transition: color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.hero-link:hover {
+  color: var(--gold-light);
+  box-shadow: 0 0 20px var(--gold-glow);
+  transform: translateY(-2px);
+}
+
+.hero-link svg {
+  flex-shrink: 0;
+}
+
 /* ========== SECTIONS ========== */
 .section {
   max-width: 1200px;

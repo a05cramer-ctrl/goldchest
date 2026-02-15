@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffec8b"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+  <!-- Simple chest icon - body -->
+  <rect x="8" y="32" width="48" height="24" rx="4" fill="url(#g)"/>
+  <!-- Lid -->
+  <path d="M8 32 Q32 18 56 32 L56 36 Q32 22 8 36 Z" fill="url(#g)" opacity="0.95"/>
+  <!-- Lock -->
+  <rect x="26" y="36" width="12" height="14" rx="3" fill="#4a3728"/>
+  <circle cx="32" cy="40" r="3" fill="#ffd700"/>
+</svg>

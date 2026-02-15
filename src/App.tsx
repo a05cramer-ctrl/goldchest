@@ -1,5 +1,10 @@
 import { useEffect, useMemo, useState, useCallback } from 'react'
 import image from './image.png'
+
+const LINKS = {
+  twitter: 'https://x.com/GoldChest_Dev',
+  chart: 'https://dexscreener.com/',
+}
 import skinCommon1 from './image copy 2.png'
 import skinCommon2 from './image copy 5.png'
 import skinRare from './image copy 3.png'
@@ -205,6 +210,16 @@ function App() {
         <div className="hero-chest">
           <img src={image} alt="Legendary Golden Chest" className="hero-chest-img" />
           <div className="hero-chest-glow" />
+          <div className="hero-links">
+            <a href={LINKS.twitter} target="_blank" rel="noopener noreferrer" className="hero-link" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Twitter
+            </a>
+            <a href={LINKS.chart} target="_blank" rel="noopener noreferrer" className="hero-link" aria-label="Chart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+              Chart
+            </a>
+          </div>
         </div>
       </section>
 
